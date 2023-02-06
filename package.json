@@ -1,0 +1,32 @@
+{
+  "name": "rabbit-mq-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node dist/index",
+    "build": "tsc",
+    "dev": "ts-node-dev src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalchan/rabbit-mq-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalchan/rabbit-mq-nodejs/issues"
+  },
+  "homepage": "https://github.com/lalchan/rabbit-mq-nodejs#readme",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.3"
+  }
+}
